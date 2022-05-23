@@ -1,52 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicios</title>
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-    <!-- ejercicio 1 -->
-    <h1>Ejercicios prácticos
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <!-- ejercicio 1: Completar la etiqueta del h1 -->
+    <h1>Ejercicios prácticos</h1>
 
-    <!-- ejercicio 2 -->
+    <!-- ejercicio 2: Colocar un ancho de 400 pixeles y un alto de 260 píxeles a la imágen de las cataratas -->
     <div class="imagen">
-        <img src="cataratas.jpg" alt="cataratas del iguazú">
+      <img
+        src="cataratas.jpg"
+        alt="cataratas del iguazú"
+        style="width: 400px; height: 260px"
+      />
     </div>
 
-    <!-- ejercicio 3 -->
-    <a "https://iguazuargentina.com/es/index">Ir a la página de Cataratas</a>
+    <!-- ejercicio 3: Hacer que el elemento link funcione -->
+    <div class="center">
+      <a href="https://iguazuargentina.com/es/index"
+        >Ir a la página de Cataratas</a
+      >
+    </div>
 
-    <!-- ejercicio 4 -->
-    <p>Las Cataratas del Iguazú son un conjunto de cataratas que se localizan sobre el río Iguazú, en el límite entre la provincia de Misiones y el estado brasileño de Paraná</p>
-    
-    <!-- ejercicio 5 -->
-    <p>Están totalmente insertadas en áreas protegidas; el sector de la Argentina se encuentra dentro del parque nacional Iguazú, mientras que el de Brasil se encuentra en el parque nacional do Iguaçu. Fueron elegidas como una de las «Siete maravillas naturales del mundo».</p>
+    <!-- ejercicio 4: Colocar un encabezado que diga "Cataratas del Iguazú" al párrafo que habla de ellas -->
+    <div style="margin-top: 3rem">
+      <h2>Cataratas del Iguazú</h2>
+      <p>
+        Las Cataratas del Iguazú son un conjunto de cataratas que se localizan
+        sobre el río Iguazú, en el límite entre la provincia de Misiones y el
+        estado brasileño de Paraná
+      </p>
+    </div>
 
-    <!-- ejercicio 6 -->
-    <p  =":">Están formadas por 275 saltos, el 80 % de ellos se ubican del lado argentino</p>
-    
-    <!-- ejercicio 7 -->
-    <p 2px solid black> Un espectáculo aparte es su salto de mayor caudal y, con 80 m, también el más alto: la Garganta del Diablo, el cual se puede disfrutar en toda su majestuosidad desde solo 50 m, recorriendo las pasarelas que parten desde Puerto Canoas, al que se llega utilizando el servicio de trenes ecológicos.</p>
-  
-    <!-- ejercicio 8 -->
+    <!-- ejercicio 5: Agregar un salto de linea en medio del párrafo -->
+    <p>
+      Están totalmente insertadas en áreas protegidas; el sector de la Argentina
+      se encuentra dentro del parque nacional Iguazú, mientras que <br />el de
+      Brasil se encuentra en el parque nacional do Iguaçu. Fueron elegidas como
+      una de las «Siete maravillas naturales del mundo».
+    </p>
+
+    <!-- ejercicio 6: Agregar color blueviolet a este párrafo en html -->
+    <p =":" style="color: blueviolet">
+      Están formadas por 275 saltos, el 80 % de ellos se ubican del lado
+      argentino.
+    </p>
+
+    <!-- ejercicio 7: Generar un borde con esos valores -->
+    <p style="border: 2px solid black; padding: 1.15rem">
+      Un espectáculo aparte es su salto de mayor caudal y, con 80 m, también el
+      más alto: la Garganta del Diablo, el cual se puede disfrutar en toda su
+      majestuosidad desde solo 50 m, recorriendo las pasarelas que parten desde
+      Puerto Canoas, al que se llega utilizando el servicio de trenes
+      ecológicos.
+    </p>
+
+    <!-- ejercicio 8: Convertir esta imágen en un link que nos lleve a https://iguazuargentina.com/es/index -->
     <div class="imagen">
-        <img src="pasarelas.jpg" alt="">
-    </div>
-    
-    <!-- ejercicio 9 -->
-    <li>Paseo inferior</li>
-    <li>Paseo superior</li>
-    <li>Graganta del diablo</li>
-    <li>Isla San Martin</li>
-    <li>Sendero Macuco</li>
-
-    <!-- ejercicio 10 -->
-    <div>
-        <h2>Cataratas del Iguazú - Misiones - Argentina</h2>
+      <a href="https://iguazuargentina.com/es/index">
+        <img src="pasarelas.jpg" alt="" />
+      </a>
     </div>
 
-</body>
+    <!-- ejercicio 9: Convertir a esta lista en una lista ordenada -->
+    <div class="center">
+      <div style="text-align: left; margin-left: calc(40%)">
+        <ol>
+          <li>Paseo inferior</li>
+          <li>Paseo superior</li>
+          <li>Garganta del diablo</li>
+          <li>Isla San Martin</li>
+          <li>Sendero Macuco</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- ejercicio 10: Colocar un id a este div -->
+    <div id="ejercicio10">
+      <h2>Cataratas del Iguazú - Misiones - Argentina</h2>
+    </div>
+  </body>
 </html>

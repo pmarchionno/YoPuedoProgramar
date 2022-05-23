@@ -1,1 +1,41 @@
 /* ejercicios 11, 12, 13, 14 y 15 */
+
+/*
+* Ejercicio 11:
+* Todos los párrafos deben tener 25 pixeles de tamaño de fuente
+* 
+* Ejercicio 12:
+* Todas las imágenes deben estar alineadas al centro
+* 
+* Ejercicio 13:
+* El footer debe tener color de fondo darkgray y letras blancas
+* 
+* Ejercicio 14:
+* Alinear el h1 al centro, desde la hoja de estilos
+* 
+* Ejercicio 15:
+* Utilizar el selector univeral para aplicar una fuente courier
+*/
+
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  font-size: 25px;
+}
+
+.imagen,
+h2,
+h1,
+.center {
+  text-align: center;
+}
+
+.center>ol>li {
+  text-align: left;
+}
+
+#ejercicio10 {
+  margin: 3rem auto;
+}
